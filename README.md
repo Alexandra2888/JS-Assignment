@@ -19,6 +19,7 @@ Installation
 There's no need for any installation or dependencies. Simply open the index.html file in your web browser to start playing the game.
 
 # Usage
+To view the website, simply open https://alexandra2888.github.io/CSS-Assignment/index.html.
 Open the index.html file in your preferred web browser.
 Enter your choice for each round when prompted.
 The game will display the results of each round in the console.
