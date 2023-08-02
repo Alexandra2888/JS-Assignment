@@ -1,4 +1,4 @@
-# Js-Assignement
+# Js-Assignment
 # Rock, Paper, Scissors Game
 Hello and welcome to the Rock, Paper, Scissors game! This project is a simple JavaScript game where you get to play against the computer. The evil AI is trying to dominate the world through this game, but you can stop it with your clean coding and good logic!
 
