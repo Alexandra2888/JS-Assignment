@@ -1,13 +1,13 @@
-// Function to get the computer's play (Rock, Paper, or Scissors)
+//function for starting the computer's play (Rock, Paper, or Scissors)
 function computerPlay() {
     const options = ['Rock', 'Paper', 'Scissors'];
     const randomIndex = Math.floor(Math.random() * options.length);
     return options[randomIndex];
 }
 
-// Function to play a single round of Rock, Paper, Scissors
+// play a single round of the game
 function playRound(playerSelection, computerSelection) {
-    // Make playerSelection case-insensitive
+
     playerSelection = playerSelection.toLowerCase();
 
     if (playerSelection === computerSelection.toLowerCase()) {
@@ -23,8 +23,8 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-// Function to play the game
-function game() {
+// play game
+function playGame() {
     let playerScore = 0;
     let computerScore = 0;
     const roundsToWin = 5;
@@ -36,7 +36,7 @@ function game() {
 
         console.log(result);
 
-        // Update scores
+        // Update score for players
         if (result.includes("Win")) {
             playerScore++;
         } else if (result.includes("Lose")) {
@@ -44,7 +44,7 @@ function game() {
         }
     }
 
-    // Determine the overall winner
+    // check the winner
     if (playerScore > computerScore) {
         console.log("Congratulations! You won the game!");
     } else if (playerScore < computerScore) {
@@ -54,5 +54,5 @@ function game() {
     }
 }
 
-// Start the game
-game();
+// Start game
+playGame();
